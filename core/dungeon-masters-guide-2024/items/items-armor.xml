@@ -35,7 +35,7 @@
 			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">true</set>
-			<set name="cost" currency="gp">4</set>
+			<set name="cost" currency="gp">40010</set>
 		</setters>
 	</element>
 
