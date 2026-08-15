@@ -16,7 +16,7 @@
 		<setters>
 			<set name="keywords">spell, charges, recharge, recharge</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement" addition="by a Spellcaster">true</set>
@@ -36,7 +36,7 @@
 		<setters>
 			<set name="keywords">spell, charges, recharge</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement" addition="by a Spellcaster">true</set>
@@ -56,7 +56,7 @@
 		<setters>
 			<set name="keywords">spell, charges, recharge</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement" addition="by a Spellcaster">true</set>
@@ -76,7 +76,7 @@
 		<setters>
 			<set name="keywords">spell, charges, recharge</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement" addition="by a Spellcaster">true</set>
@@ -96,7 +96,7 @@
 		<setters>
 			<set name="keywords">spell, charges, recharge</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement" addition="by a Spellcaster">true</set>
@@ -116,7 +116,7 @@
 		<setters>
 			<set name="keywords">spell, charges, recharge</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement" addition="by a Spellcaster">true</set>
@@ -136,7 +136,7 @@
 		<setters>
 			<set name="keywords">spell, charges, recharge</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement" addition="by a Spellcaster">true</set>
@@ -156,7 +156,7 @@
 		<setters>
 			<set name="keywords">spell, charges, recharge</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement" addition="by a Spellcaster">true</set>
@@ -176,7 +176,7 @@
 		<setters>
 			<set name="keywords">spell, charges, recharge</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement" addition="by a Spellcaster">true</set>
@@ -195,7 +195,7 @@
 		<setters>
 			<set name="keywords">cosmetic</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Common</set>
 			<set name="cost" currency="gp">100</set>
@@ -211,7 +211,7 @@
 		<setters>
 			<set name="keywords">charges, recharge, dawn, magic action</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Common</set>
 			<set name="cost" currency="gp">100</set>
@@ -240,7 +240,7 @@
 		<setters>
 			<set name="keywords">bard, cleric, druid, sorcerer, warlock, wizard, charges, recharge, dawn, charm person, command, comprehend languages, enchantment, reaction, reflection, saving throws, saves, automatic success, auto-success</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement" addition="by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard">true</set>
@@ -276,7 +276,7 @@
 		<setters>
 			<set name="keywords">druid, sorcerer, warlock, wizard, resistance, fire, charges, recharge, dawn, burning hands, fireball, wall of fire</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement" addition="by a Druid, Sorcerer, Warlock, or Wizard">true</set>
@@ -297,7 +297,7 @@
 		<setters>
 			<set name="keywords">charges, recharge, dawn, magic action, action</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Common</set>
 			<set name="cost" currency="gp">100</set>
@@ -336,7 +336,7 @@
 		<setters>
 			<set name="keywords">druid, sorcerer, warlock, wizard, resistance, cold, charges, recharge, dawn, cone of cold, fog cloud, ice storm, wall of ice</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement" addition="by a Druid, Sorcerer, Warlock, or Wizard">true</set>
@@ -374,7 +374,7 @@
 		<setters>
 			<set name="keywords">bard, cleric, druid, charges, recharge, dawn, cure wounds, lesser restoration, mass cure wounds</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement" addition="by a Bard, Cleric, or Druid">true</set>
@@ -435,7 +435,7 @@
 		<setters>
 			<set name="keywords">sorcerer, warlock, wizard, enhancement, ac, armor class, charges, recharge, dawn, cone of cold, fireball, globe of invulnerability, hold monster, levitate, lightning bolt, magic missile, ray of enfeeblement, wall of force</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement" addition="by a Sorcerer, Warlock, or Wizard">true</set>
@@ -465,7 +465,7 @@
 		<setters>
 			<set name="keywords">enhancement, charges, recharges, dawn, force, damage</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">true</set>
@@ -499,7 +499,7 @@
 		<setters>
 			<set name="keywords">bard, cleric, druid, sorcerer, warlock, wizard, charge, recharges, dawn, magic action, action, heavily obscured, giant insect, insect plague</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement" addition="by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard">true</set>
@@ -518,7 +518,7 @@
 		<setters>
 			<set name="keywords">bonus action, attack action, piercing, poison, damage</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">true</set>
@@ -619,7 +619,7 @@
 		<setters>
 			<set name="keywords">enhancement, sorcerer, warlock, wizard, charges, recharge, dawn, spell attack bonus, magic resistance, advantage, saving throws, saves, reaction, arcane lock, conjure elemental, detect magic, dispel magic, enlarge/reduce, reduce, fireball, flaming sphere, ice storm, invisibility, knock, light, lightning bolt, mage hand, passwall, plane shift, protection from evil and good, telekinesis, wall of fire, web, magic action, action, emanation, force, damage, dexterity</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement" addition="by Sorcerer, Warlock, or Wizard">true</set>
@@ -645,7 +645,7 @@
 		<setters>
 			<set name="keywords">magic action, action, giant constrictor snake, companion, bonus action</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">true</set>
@@ -701,7 +701,7 @@
 		<setters>
 			<set name="keywords">enhancement, druid, spell attack bonus, charges, recharge, dawn, animal friendship, awaken, barkskin, locate animals or plants, pass without trace, speak with animals, speak with plants, wall of thorns, magic action, action</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement" addition="by a Druid">true</set>
@@ -745,7 +745,7 @@
 		<setters>
 			<set name="keywords">charges, recharge, dawn, necrotic, damage, constitution, saving throws, saves, disadvantage, strength, ability checks, skill checks, checks</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Staff</set>
+			<set name="type" addition="Staff">Weapon</set>
 			<set name="weapon">Quarterstaff</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">true</set>

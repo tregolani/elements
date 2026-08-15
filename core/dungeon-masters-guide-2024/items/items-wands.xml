@@ -249,7 +249,7 @@
 		<setters>
 			<set name="keywords">constitution, saving throw, save, zombies, mace, necrotic, damage, ac, armor class, animate dead, blight, circle of death, finger of death, power word kill, speak with dead, skeletons, sentience</set>
 			<set name="category">Magic Weapons</set>
-			<set name="type">Wand</set>
+			<set name="type" addition="Wand">Weapon</set>
 			<set name="weapon">Mace</set>
 			<set name="rarity">Artifact</set>
 			<set name="attunement">true</set>
