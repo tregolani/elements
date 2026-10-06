@@ -210,37 +210,21 @@
 			<p class="indent"><b><i>Life Transfer.</i></b> You can siphon the animating magic of your <b>Reanimated Companion</b> to bolster yourself. When you or your companion takes damage, you can take a Reaction to gain a number of Hit Points equal to your companion's current Hit Points. The companion then immediately drops to 0 Hit Points and dies (triggering its Death Burst trait).</p>
 			<p class="indent"><b><i>Superior Modifications.</i></b> Whenever you create a <b>Reanimated Companion</b>, the companion now gains three options for Strange Modifications.</p>
 		</description>
-		<sheet alt="Refined Reanimation">
-			<description>You have the following benefits:</description>
-		</sheet>
-		<rules>
-			<select type="Archetype Feature" name="Facilitated Revival" supports="Reanimator Facilitated Revival" default="ID_WOTC_RHW_ARCHETYPE_FEATURE_ARTIFICER_REANIMATOR_REFINED_REANIMATION_FACILITATED_REVIVAL" />
-			<select type="Archetype Feature" name="Life Transfer" supports="Reanimator Life Transfer" default="ID_WOTC_RHW_ARCHETYPE_FEATURE_ARTIFICER_REANIMATOR_REFINED_REANIMATION_LIFE_TRANSFER" />
-		</rules>
-	</element>
-	<element name="Facilitated Revival" type="Archetype Feature" source="Ravenloft: The Horrors Within" id="ID_WOTC_RHW_ARCHETYPE_FEATURE_ARTIFICER_REANIMATOR_REFINED_REANIMATION_FACILITATED_REVIVAL">
-		<compendium display="false"/>
-		<requirements>ID_WOTC_RHW_ARCHETYPE_FEATURE_ARTIFICER_REANIMATOR_REFINED_REANIMATION</requirements>
-		<supports>Reanimator Facilitated Revival</supports>
-		<description>
-			<p>You can cast <i>Raise Dead</i> once without expending a spell slot and without Material components, provided you use Tinker's Tools or another type of Artisan's Tools with which you have proficiency as the Spellcasting Focus. Once you use this feature, you can't use it again until you finish a Long Rest.</p>
-			<div class="reference">
-				<div element="ID_WOTC_PHB24_SPELL_RAISE_DEAD"/>
-			</div>
-		</description>
-		<sheet alt="Facilitated Revival" usage="1/Long Rest">
+		<sheet alt="Refined Reanimation" usage="1/Long Rest">
 			<description>You can cast Raise Dead once without expending a spell slot and without Material components, provided you use Tinker's Tools or another type of Artisan's Tools with which you have proficiency as the Spellcasting Focus.</description>
 		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_RHW_ARCHETYPE_FEATURE_ARTIFICER_REANIMATOR_REFINED_REANIMATION_LIFE_TRANSFER" />
+		</rules>
 	</element>
 	<element name="Life Transfer" type="Archetype Feature" source="Ravenloft: The Horrors Within" id="ID_WOTC_RHW_ARCHETYPE_FEATURE_ARTIFICER_REANIMATOR_REFINED_REANIMATION_LIFE_TRANSFER">
 		<compendium display="false"/>
 		<requirements>ID_WOTC_RHW_ARCHETYPE_FEATURE_ARTIFICER_REANIMATOR_REFINED_REANIMATION</requirements>
-		<supports>Reanimator Life Transfer</supports>
 		<description>
 			<p>You can siphon the animating magic of your <b>Reanimated Companion</b> to bolster yourself. When you or your companion takes damage, you can take a Reaction to gain a number of Hit Points equal to your companion's current Hit Points. The companion then immediately drops to 0 Hit Points and dies (triggering its Death Burst trait).</p>
 		</description>
-		<sheet alt="Life Transfer Revival" action="Reaction">
-			<description>When you or your companion takes damage, you can gain a number of HPs equal to your companion's current HPs. The companion then immediately drops to 0 HPs and dies (triggering its Death Burst trait).</description>
+		<sheet alt="Life Transfer" action="Reaction">
+			<description>When you or your Reanimated Companion takes damage, you can gain a number of HPs equal to your companion's current HPs. The companion then immediately drops to 0 HPs and dies (triggering its Death Burst trait).</description>
 		</sheet>
 	</element>
 
