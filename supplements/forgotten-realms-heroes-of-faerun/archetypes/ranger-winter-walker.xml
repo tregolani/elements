@@ -39,35 +39,15 @@
 			<p class="indent"><b><i>Frost Resistance.</i></b> You have Resistance to Cold damage.</p>
 			<p class="indent"><b><i>Polar Strikes.</i></b> When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.</p>
 		</description>
-		<sheet alt="Frigid Explorer">
-			<description>You gain the following benefits:</description>
+		<sheet alt="Frigid Explorer" usage="1/Turn">
+			<description>When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target. &#13;
+			Additionally, damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.</description>
+			<description level="11">When you hit a creature with an attack roll using a weapon, you can deal an extra 1d6 Cold damage to the target. &#13;
+			Additionally, damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.</description>
 		</sheet>
 		<rules>
-			<select type="Archetype Feature" name="Biting Cold" supports="Biting Cold" default="ID_WOTC_FRHOF_ARCHETYPE_FEATURE_RANGER_WINTER_WALKER_BITING_COLD" />
-			<select type="Archetype Feature" name="Polar Strikes" supports="Polar Strikes" default="ID_WOTC_FRHOF_ARCHETYPE_FEATURE_RANGER_WINTER_WALKER_POLAR_STRIKES" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD"/>
 		</rules>
-	</element>
-	<element name="Biting Cold" type="Archetype Feature" source="Forgotten Realms: Heroes of Faerûn" id="ID_WOTC_FRHOF_ARCHETYPE_FEATURE_RANGER_WINTER_WALKER_BITING_COLD">
-		<compendium display="false" />
-		<supports>Biting Cold</supports>
-		<description>
-			<p>Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.</p>
-		</description>
-		<sheet>
-			<description>Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.</description>
-		</sheet>
-	</element>
-	<element name="Polar Strikes" type="Archetype Feature" source="Forgotten Realms: Heroes of Faerûn" id="ID_WOTC_FRHOF_ARCHETYPE_FEATURE_RANGER_WINTER_WALKER_POLAR_STRIKES">
-		<compendium display="false" />
-		<supports>Polar Strikes</supports>
-		<description>
-			<p>When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.</p>
-		</description>
-		<sheet usage="1/Turn">
-			<description>When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target.</description>
-			<description level="11">When you hit a creature with an attack roll using a weapon, you can deal an extra 1d6 Cold damage to the target.</description>
-		</sheet>
 	</element>
 	<element name="Level 3: Hunter's Rime" type="Archetype Feature" source="Forgotten Realms: Heroes of Faerûn" id="ID_WOTC_FRHOF_ARCHETYPE_FEATURE_RANGER_WINTER_WALKER_HUNTERS_RIME">
 		<requirements>!ID_INTERNAL_FRHOF_FEATURE_REPLACEMENT_RANGER_WINTER_WALKER_HUNTERS_RIME</requirements>
