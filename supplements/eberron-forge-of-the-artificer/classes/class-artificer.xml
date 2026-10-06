@@ -3,7 +3,6 @@
 	<info>
 		<name>Artificer</name>
 		<description>The Artificer class from Eberron: Forge of the Artificer.</description>
-		<author url="https://marketplace.dndbeyond.com/category/5147000?pid=DB5147000/">Wizards of the Coast</author>
 		<update version="0.0.1">
 			<file name="class-artificer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/eberron-forge-of-the-artificer/classes/class-artificer.xml" />
 		</update>
@@ -296,17 +295,14 @@
 			<p class="indent"><b><i>Drain Magic Item.</i></b> As a Bonus Action, you can touch a magic item within 5 feet of yourself that you created with Replicate Magic Item and cause the item to vanish, converting its magical energy into a spell slot. The slot is level 1 if the item is Common or level 2 if the item is Uncommon or Rare. Once you use this feature, you can’t do so again until you finish a Long Rest. Any spell slot you create with this feature vanishes when you finish a Long Rest.</p>
 			<p class="indent"><b><i>Transmute Magic Item.</i></b> As a Magic action, you can touch one magic item within 5 feet of yourself that you created with Replicate Magic Item and transform it into a different magic item. The resulting item must be based on a magic item plan you know. Once you use this feature, you can’t do so again until you finish a Long Rest.</p>
 		</description>
-		<sheet alt="Magic Item Tinker">
-			<description>You gain the following abilities:</description>
-		</sheet>
+		<sheet display="false"/>
 		<rules>
-			<select type="Class Feature" name="Charge Magic Item" supports="Magic Item Tinker" default="ID_WOTC_EFOTA_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_TINKER_CHARGE_MAGIC_ITEM" />
-			<select type="Class Feature" name="Drain Magic Item" supports="Magic Item Tinker" default="ID_WOTC_EFOTA_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_TINKER_DRAIN_MAGIC_ITEM" />
-			<select type="Class Feature" name="Transmute Magic Item" supports="Magic Item Tinker" default="ID_WOTC_EFOTA_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_TINKER_TRANSMUTE_MAGIC_ITEM" />
+			<grant type="Class Feature" id="ID_WOTC_EFOTA_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_TINKER_CHARGE_MAGIC_ITEM" />
+			<grant type="Class Feature" id="ID_WOTC_EFOTA_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_TINKER_DRAIN_MAGIC_ITEM" />
+			<grant type="Class Feature" id="ID_WOTC_EFOTA_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_TINKER_TRANSMUTE_MAGIC_ITEM" />
 		</rules>
 	</element>
 	<element name="Charge Magic Item" type="Class Feature" source="Eberron: Forge of the Artificer" id="ID_WOTC_EFOTA_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_TINKER_CHARGE_MAGIC_ITEM">
-		<supports>Magic Item Tinker</supports>
 		<compendium display="false" />
 		<description>
 			<p>As a Bonus Action, you can touch a magic item within 5 feet of yourself that you created with Replicate Magic Item and that uses charges. You expend a level 1+ spell slot and recharge the item. The number of charges the item regains is equal to the level of spell slot expended.</p>
@@ -316,7 +312,6 @@
 		</sheet>
 	</element>
 	<element name="Drain Magic Item" type="Class Feature" source="Eberron: Forge of the Artificer" id="ID_WOTC_EFOTA_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_TINKER_DRAIN_MAGIC_ITEM">
-		<supports>Magic Item Tinker</supports>
 		<compendium display="false" />
 		<description>
 			<p>As a Bonus Action, you can touch a magic item within 5 feet of yourself that you created with Replicate Magic Item and cause the item to vanish, converting its magical energy into a spell slot. The slot is level 1 if the item is Common or level 2 if the item is Uncommon or Rare. Once you use this feature, you can’t do so again until you finish a Long Rest. Any spell slot you create with this feature vanishes when you finish a Long Rest.</p>
@@ -326,13 +321,12 @@
 		</sheet>
 	</element>
 	<element name="Transmute Magic Item" type="Class Feature" source="Eberron: Forge of the Artificer" id="ID_WOTC_EFOTA_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_TINKER_TRANSMUTE_MAGIC_ITEM">
-		<supports>Magic Item Tinker</supports>
 		<compendium display="false" />
 		<description>
 			<p>As a Magic action, you can touch one magic item within 5 feet of yourself that you created with Replicate Magic Item and transform it into a different magic item. The resulting item must be based on a magic item plan you know. Once you use this feature, you can’t do so again until you finish a Long Rest.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description>you can touch one Replicated Magic Item and transform it into a different one based on a magic item plan you know.</description>
+			<description>You can touch one Replicated Magic Item and transform it into a different one based on a magic item plan you know.</description>
 		</sheet>
 	</element>
 
