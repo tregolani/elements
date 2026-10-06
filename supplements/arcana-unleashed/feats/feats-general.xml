@@ -773,6 +773,47 @@
 		</sheet>
 		<rules>
 			<select type="Ability Score Improvement" name="Ability Score Increase (Spell Resistant)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION" alt="Ability Score Increase (Spell Resistant)"/>
+			<select type="Feat Feature" name="Resistance (Spell Resistant)" supports="ID_WOTC_AU_FEAT_SPELL_RESISTANT_MAGICAL_RESILIENCE_NECROTIC|ID_WOTC_AU_FEAT_SPELL_RESISTANT_MAGICAL_RESILIENCE_PSYCHIC|ID_WOTC_AU_FEAT_SPELL_RESISTANT_MAGICAL_RESILIENCE_RADIANT|ID_WOTC_AU_FEAT_SPELL_RESISTANT_MAGICAL_RESILIENCE_THUNDER"/>
+		</rules>
+	</element>
+	<element name="Necrotic" type="Feat Feature" source="Arcana Unleashed" id="ID_WOTC_AU_FEAT_SPELL_RESISTANT_MAGICAL_RESILIENCE_NECROTIC">
+		<compendium display="false"/>
+		<description>
+			<p>You gain Resistance to Necrotic Damage.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+	<element name="Psychic" type="Feat Feature" source="Arcana Unleashed" id="ID_WOTC_AU_FEAT_SPELL_RESISTANT_MAGICAL_RESILIENCE_PSYCHIC">
+		<compendium display="false"/>
+		<description>
+			<p>You gain Resistance to Psychic Damage.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+		</rules>
+	</element>
+	<element name="Radiant" type="Feat Feature" source="Arcana Unleashed" id="ID_WOTC_AU_FEAT_SPELL_RESISTANT_MAGICAL_RESILIENCE_RADIANT">
+		<compendium display="false"/>
+		<description>
+			<p>You gain Resistance to Radiant Damage.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+		</rules>
+	</element>
+	<element name="Thunder" type="Feat Feature" source="Arcana Unleashed" id="ID_WOTC_AU_FEAT_SPELL_RESISTANT_MAGICAL_RESILIENCE_THUNDER">
+		<compendium display="false"/>
+		<description>
+			<p>You gain Resistance to Thunder Damage.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
 		</rules>
 	</element>
 
