@@ -31,6 +31,7 @@
 		<file name="feats-origin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/ravenloft-the-horrors-within/feats/feats-origin.xml" />
 
 		<!-- items -->
+		<file name="items-packs.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/ravenloft-the-horrors-within/items/items-packs.xml" />
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/ravenloft-the-horrors-within/items/items-weapons.xml" />
 		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/ravenloft-the-horrors-within/items/items-wondrous.xml" />
 
