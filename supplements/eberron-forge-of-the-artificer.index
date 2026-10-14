@@ -51,6 +51,7 @@
 		<file name="artificer-replicate-magic-items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/eberron-forge-of-the-artificer/items/artificer-replicate-magic-items.xml" />
 		<file name="items-armor.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/eberron-forge-of-the-artificer/items/items-armor.xml" />
 		<file name="items-mounts-vehicles.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/eberron-forge-of-the-artificer/items/items-mounts-vehicles.xml" />
+		<file name="items-packs.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/eberron-forge-of-the-artificer/items/items-packs.xml" />
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/eberron-forge-of-the-artificer/items/items-weapons.xml" />
 		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/eberron-forge-of-the-artificer/items/items-wondrous.xml" />
 
