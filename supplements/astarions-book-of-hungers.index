@@ -21,6 +21,9 @@
 		<file name="feats-general.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/astarions-book-of-hungers/feats/feats-general.xml" />
 		<file name="feats-epic-boons.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/astarions-book-of-hungers/feats/feats-epic-boons.xml" />
 
+		<!-- items -->
+		<file name="items-packs.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/astarions-book-of-hungers/items/items-packs.xml" />
+
 		<!-- races -->
 		<file name="race-dhampir.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/astarions-book-of-hungers/races/race-dhampir.xml" />
 
