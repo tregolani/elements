@@ -42,6 +42,7 @@
 		<!-- items -->
 		<file name="items-armor.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/arcana-unleashed/items/items-armor.xml" />
 		<file name="items-gear.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/arcana-unleashed/items/items-gear.xml" />
+		<file name="items-packs.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/arcana-unleashed/items/items-packs.xml" />
 		<file name="items-potions.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/arcana-unleashed/items/items-potions.xml" />
 		<file name="items-rings.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/arcana-unleashed/items/items-rings.xml" />
 		<file name="items-rods.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/arcana-unleashed/items/items-rods.xml" />
