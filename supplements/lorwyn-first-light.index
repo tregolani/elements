@@ -19,6 +19,7 @@
 		<file name="feats-origin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/lorwyn-first-light/feats/feats-origin.xml" />
 
 		<!-- items -->
+		<file name="items-packs.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/lorwyn-first-light/items/items-packs.xml" />
 		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/lorwyn-first-light/items/items-wondrous.xml" />
 
 		<!-- races -->
